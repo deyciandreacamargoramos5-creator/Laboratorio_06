@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>MENU INTERACTIVO</h1>
+        <nav>
+            <a href="index.html">INICIO</a>
+            <li><a href="registro.html">REGISTRO</a></li>
+            <li><a href="lenguajes.html">LENGUAJES</a></li>
+            <li><a href="validacion.html">VALIDACION</a></li>
+            <li><a href="cursos.html">CURSOS</a></li>
+        </nav>
+    </header>
+         <h1>Matricula de cursos</h1>
+        <main>
+            <form>
+                <label>Nombre:
+                    <input type="text" name="nombre" requiered>
+                </label><br><br>
+                
+                <label>Apellido:
+                    <input type="text" name="apellido" required>
+                </label><br><br>
+
+                <label>Documento de Identidad:
+                    <input type="text" name="dni" required>
+                </label><br><br>
+
+                <label>Curso:
+                    <select name="curso">
+                        <option>IDWEB</option>
+                        <option>DSOO</option>
+                        <option>TND</option>
+                        <option>ESTRUCTURAS DISCRETAS</option>
+                        <option>REALIDAD NACIONAL</option>
+                        <option>LCRA</option>
+                        <option>CALCULO</option>
+                    </select>
+                </label><br><br>
+
+                <label>Modalidad:
+                    <input type="radio" name="modalidad" value="Presencial"> Presencial
+                    <input type="radio" name="virtual" value="Virtual"> Virtual
+                </label><br><br>
+
+                <p>Horarios disponibles:</p>
+                <label><input type="checkbox" name="horario" value="mañana"> Mañana </label>
+                <label><input type="checkbox" name="horario" value="tarde"> Tarde</label>
+                <label><input type="checkbox" name="horario" value="noche"> Noche</label>
+                <br><br>
+
+                <label>Comentarios:
+                    <textarea name="Comentarios" rows="4" cols="40"></textarea>
+                </label><br><br>
+
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Restablecer">
+            </form>
+        </main>
+</body>
+</html>
