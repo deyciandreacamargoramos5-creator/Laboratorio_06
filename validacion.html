@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>MENU INTERACTIVO</h1>
+        <nav>
+            <a href="index.html">INICIO</a>
+            <li><a href="registro.html">REGISTRO</a></li>
+            <li><a href="lenguajes.html">LENGUAJES</a></li>
+            <li><a href="validacion.html">VALIDACION</a></li>
+            <li><a href="cursos.html">CURSOS</a></li>
+        </nav>
+    </header>
+    <h1>Formulario con validaciones</h1>
+    <main>
+        <form>
+            <label>Correo:
+                <input type="email" name="correo" required placeholder="ejemplo@gmail.com">
+            </label><br><br>
+            
+            <label>Contraseña:
+                <input type="password" name="password" requiered minlength="6" maxlength="12" placeholder="6 a 12 caracteres">
+            </label><br><br>
+
+            <label>Confirmar contraseña:
+                <input type="password" name="confirmar" requiered>
+            </label><br><br>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+</body>
+</html>
