@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">INICIO</a>
+            <li><a href="registro.html">REGISTRO</a></li>
+            <li><a href="lenguajes.html">LENGUAJES</a></li>
+            <li><a href="validacion.html">VALIDACION</a></li>
+            <li><a href="cursos.html">CURSOS</a></li>
+        </nav>
+    </header>
+         <h1>Preferencias de Programación</h1>
+    <main>
+        <form>
+            <label for="foto">Seleccione una foto de perfil</label>
+            <input type="file" if="foto" name="mi foto" accept="imagen">
+            <br><br>
+            <label>¿Qué lenguajes conoces</label>
+            <br><br>
+            <label><input type="checkbox" name="lenguajes" value ="HTML">
+            HTML</label>
+
+            <label><input type="checkbox" name="lenguajes" value ="CSS">
+            CSS</label>
+
+            <label><input type="checkbox" name="lenguajes" value ="JavaScript">
+            JavaScript</label>
+
+            <label><input type="checkbox" name="lenguajes" value ="Python">
+            Python</label>
+
+            <label><input type="checkbox" name="lenguajes" value ="Java">
+            Java</label>
+            <br><br>
+            
+            <label>¿Cuántas horas de programación estudias al día?
+                <input type="number" name="hora" min="0" max="24">
+            </label><br><br>
+
+            <button type="submit">Guardar</button>
+        </form>
+    </main>
+</body>
+</html>
